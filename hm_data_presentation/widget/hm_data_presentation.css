@@ -1,0 +1,132 @@
+.hm_data_presentation{
+	color: #fff;
+	background-color: black;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+
+	/* 容器属性 */
+	/* 容器成员排列方向 */
+	flex-direction: row;
+	/* 一条轴线排不下，如何换行 */
+	flex-wrap: nowrap;
+	flex-flow: row nowrap;
+	/* 在主轴上的对齐方式 */
+	justify-content: space-between;
+	/* 交叉轴上如何对齐 */
+	align-items: stretch;
+	/* 多根轴线的对齐方式 */
+	align-content: space-between;
+}
+.hm_data_presentation .text1{
+	box-sizing: border-box;
+	background: url(./text_blue.png) no-repeat center;
+	display: inline-block;
+	width: 60px;
+	height:60px;
+	background-size:contain;
+}
+.hm_data_presentation .text2{
+	box-sizing: border-box;
+	background: url(./text_green.png) no-repeat center;
+	display: inline-block;
+	width: 60px;
+	height:60px;
+	background-size:contain;
+}
+.hm_data_presentation .text3{
+	box-sizing: border-box;
+	background: url(./text_red.png) no-repeat center;
+	display: inline-block;
+	width: 60px;
+	height:60px;
+	background-size:contain;
+}
+.hm_data_presentation .box{
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width:100px;
+	height:100px;
+	border: 1px solid #ccc;
+	border-radius: 80px;
+	margin-right: 20px;
+
+	/* 容器成员属性 */
+	/* 排列顺序。数值越小，排列越靠前，默认为0 */
+	order: 20;
+	flex-grow: 1;
+	flex-shrink: 1;
+	align-self: auto;
+}
+.hm_data_presentation .text2::before{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: relative;
+	/* top: 50%; */
+	/* left: 50%; */
+	transform: translate(-13.5%, -13.5%);
+}
+.hm_data_presentation .text3::before{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.hm_data_presentation .text1::before{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.hm_data_presentation .right{
+	display: flex;
+    width: 152px;
+    height: 102px;
+    flex-direction: column;
+    justify-content: center;
+}
+.hm_data_presentation .cointer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.hm_data_presentation .text_size{
+	font-size: 24px;
+	text-align: center;
+}
+.hm_data_presentation .text_red{
+	color:#F08080;
+	font-size: 38px;
+	text-align: center;
+	font-weight: bold;
+}
+.hm_data_presentation .text_blue{
+	color:#00BFFF ;
+	font-size: 38px;
+	text-align: center;
+	font-weight: bold;
+}
+.hm_data_presentation .text_green{
+	color:#90EE90;
+	font-size: 38px;
+	text-align: center;
+	font-weight: bold;
+}

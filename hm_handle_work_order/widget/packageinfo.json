@@ -1,0 +1,25 @@
+{
+  "widgetApi": [
+    {
+      "name": "hm_handle_work_order"
+    }
+  ],
+  "widgetDescription": "widget api demo",
+  "authorName": "m00361589",
+  "width": "",
+  "height": "",
+  "requires": [
+    {
+      "name": "global_Vue",
+      "version": "100.7"
+    },
+    {
+      "name": "global_VueI18n",
+      "version": "100.7"
+    },
+	{
+      "name": "global_Element",
+      "version": "100.8"
+    }
+  ]
+}

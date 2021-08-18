@@ -1,0 +1,197 @@
+ul,li {
+list-style: none;
+margin: 0;
+padding: 0;
+white-space:nowrap;
+}
+.work_report_form_box {
+font-size: 30px;
+width: 100%;
+margin: auto;
+}
+.work_report_form_header {
+display: flex;
+font-weight: bold;
+}
+.work_report_form_body {
+display: flex;
+/* background-image: url(./7.png); */
+overflow: hidden;
+}
+.work_report_form_cell_isRed {
+color: red;
+}
+.work_report_form_list{
+	display: inline-block;
+	width: 3072px;
+
+}
+.work_report_form_list li {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+}
+
+.work_report_form_cell{
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	align-items: center;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+.work_report_form_cell-1{
+flex:1;
+}
+.work_report_form_cell{
+	flex:1;
+	}
+.work_report_form_cell-2{
+flex:2;
+}
+.work_report_form_cell-3{
+flex:3
+}
+.work_report_form_cell-4{
+flex:4
+}
+.work_report_form_cell-8{
+flex:8
+}
+.work_report_form_cell-13{
+flex:13
+}
+.work_report_form_row{
+	display: flex;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+.work_report_form_row:nth-child(odd){
+background-color:#ccc;
+}
+
+.work_report_form_box{
+color: #fff;
+}
+.work_report_form_cellrow{
+/* background-color:rgb(14, 37, 76); */
+/* background-image: url(./7.png); */
+} 
+.work_report_form_header{
+/* background-color:rgb(14, 37, 76); */
+/* background-image: url(./7.png); */
+}
+#hm_work_report_form_work_order span{
+overflow: hidden;
+}
+.work_report_form_left{
+	width: 520px;
+	display: inline-block;
+}
+.work_department_name{	
+	width: 260px;
+	text-align: center;
+}
+.work_department_name2{	
+	width: 260px;
+	text-align: center;
+}
+.department_engineer{
+	height: 200px;
+	line-height: 200px;
+}
+.department_customer{
+	height: 150px;
+	line-height: 150px;
+}
+.department_security{
+	height: 100px;
+	line-height: 100px;
+}
+.department_child{
+	height: 50px;
+	line-height: 50px;
+}
+.work_report_form_left{
+	display: flex;
+	justify-content: space-between;
+}
+.clearfix::before,.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.work_report_form_cell_isRed{
+	color: red;
+}
+/* 
+.department_engineer{
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(1) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(2) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(3) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(4) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(1){	
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(2){	
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(3){	
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(4){	
+	background-color: rgb(14, 37, 76, 0.8);
+}
+
+.department_security{
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(8) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(8){	
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_report_form_list li:nth-child(9) {
+	background-color: rgb(14, 37, 76, 0.8);
+}
+.work_department_name2 div:nth-child(9){	
+	background-color: rgb(14, 37, 76, 0.8);
+} */
+
+.department_engineer{
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+	border-top: 1px solid rgb(14, 37, 76, 1);
+}
+.work_report_form_list li:nth-child(1) {
+	border-top: 1px solid rgb(14, 37, 76, 1);
+}
+.work_department_name2 div:nth-child(1){	
+	border-top: 1px solid rgb(14, 37, 76, 1);
+}
+.work_report_form_list li:nth-child(4) {
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+}
+.work_department_name2 div:nth-child(4){	
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+}
+.department_customer{
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+}
+.work_report_form_list li:nth-child(7) {
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+}
+.work_department_name2 div:nth-child(7){	
+	border-bottom: 1px solid rgb(14, 37, 76, 1);
+}

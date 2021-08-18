@@ -1,0 +1,202 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.handle_box {
+    font-size: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.handle_header {
+    display: flex;
+    font-weight: bold;
+}
+
+.handle_body {
+    height: 480px;
+    overflow: hidden;
+}
+
+.handle_cell_isRed {
+    color: red;
+}
+
+.handle_list li {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.handle_cell {
+    /*display: flex;*/
+    overflow: hidden;
+    text-overflow-ellipsis: ellipsis;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+
+.handle_cell-1 {
+    flex: 1;
+}
+
+.handle_cell-2 {
+    flex: 2;
+}
+
+.handle_cell-3 {
+    flex: 3
+}
+
+.handle_cell-4 {
+    flex: 4
+}
+
+.handle_cell-5 {
+    flex: 5
+}
+.handle_cell-6 {
+    flex: 6
+}
+
+.handle_cell-8 {
+    flex: 8
+}
+.handle_cell-11 {
+    flex: 11
+}
+
+.handle_cell-13 {
+    flex: 13
+}
+
+.handle_row {
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+
+.handle_row:nth-child(odd) {
+    background-color: #ccc;
+}
+
+/* gyh */
+@keyframes menu-box-trans{
+    0%{
+        top: 0px;
+    }100%{
+        top: 0px;
+    }
+}
+@-webkit-keyframes menu-box-trans{
+    0%{
+        top: 0px;
+    }100%{
+        top: 0px;
+    }
+}
+.handle_list {
+  animation: menu-box-trans 60s  linear infinite;
+  position: relative;
+}
+
+/*
+处理状态
+*/
+.handle_header li div {
+    text-align: center;
+}
+
+.handle-state {
+    display: flex;
+}
+
+.handle-state-1 {
+    flex: 1
+}
+
+/*
+处理状态圆圈
+*/
+.handle-state-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.circle-green {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 20px 20px;
+}
+
+.circle-red {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 20px 20px;
+}
+
+.circle-yellow {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 20px 20px;
+}
+
+.handle_box {
+    color: #fff;
+}
+
+.handle_cellrow:nth-child(odd) {
+    background-color: rgb(14, 37, 76, 0.8);
+}
+
+.handle_header {
+    background-color: rgb(12, 21, 63);
+}
+
+#hm_handle_work_order span {
+    overflow: hidden;
+}
+
+/* .handle_list {
+  animation: handle_scroll 10s  linear infinite;
+  position: relative;
+} */
+.flex_handle_level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handle_cell_isRed1 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.handle_cellall_isRed {
+    color: red;
+}

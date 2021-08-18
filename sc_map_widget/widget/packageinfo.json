@@ -1,0 +1,45 @@
+{
+    "widgetApi": [
+    {
+        "name": "SC_Map_Widget"
+    }],
+    "widgetDescription": "Widget for Displaying GIS Map",
+    "authorName": "",
+    "requires": [{
+            "name": "global_Vue",
+            "version": "100.8.2"
+        },
+        {
+            "name": "global_VueI18n",
+            "version": "100.7.2"
+        },
+		{
+		  "name": "global_VueColor",
+		  "version": "100.7.2"
+		},
+		{
+		  "name": "global_Element",
+		  "version": "101.0.2"
+		},
+		{
+			"name": "global_echarts",
+            "version": "101.0.2"
+		},
+		{
+			"name": "global_SCGISMap",
+            "version": "100.6.6"
+		},
+		{
+			"name": "global_SCEchartsGISMap",
+            "version": "100.3.3"
+		}
+    ],
+	"width": 980,
+	"height": 600,
+	"i18n": [{
+      "name": "messages-en"
+    },
+    {
+      "name": "messages-zh"
+    }]
+}

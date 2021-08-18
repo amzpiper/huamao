@@ -1,0 +1,15 @@
+{
+  "name": "hm_mainframe_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"\",\"zh_CN\":\"IOC man frame去掉图标\"}",
+  "widgetname": "{\"en_US\":\"\",\"zh_CN\":\"HM_mainframe_widget\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

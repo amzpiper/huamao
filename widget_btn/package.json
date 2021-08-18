@@ -1,0 +1,15 @@
+{
+  "name": "widget_btn",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"2\",\"zh_CN\":\"华贸项目大屏拆楼组件\"}",
+  "widgetname": "{\"en_US\":\"widgetbtn\",\"zh_CN\":\"HM Apart Floor Widget\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

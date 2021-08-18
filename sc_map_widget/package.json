@@ -1,0 +1,15 @@
+{
+  "name": "sc_map_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"HM Map Widget\",\"zh_CN\":\"HM Map Widget\"}",
+  "widgetname": "{\"en_US\":\"HM Map Widget\",\"zh_CN\":\"HM Map Widget\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

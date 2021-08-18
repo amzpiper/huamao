@@ -1,0 +1,639 @@
+{
+  "resCode": "0",
+  "resMsg": "成功",
+  "result": [
+      {
+          "count": 10,
+          "devices": [
+              {
+                  "channel": "050J000000SO7dIVsIUq",
+                  "channelCode": "IoT",
+                  "code": "Device201909271813500000006163",
+                  "createdDate": "2019-09-27 18:13:50",
+                  "deviceDef": {
+                      "code": "PAD",
+                      "defName": "人脸识别器",
+                      "iconUrl": "",
+                      "id": "0507000000SoO90LEPdA"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.05744851349499,22.657893602712246,0,,",
+                      "space": "0A11000000S3VcmJpD4y",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "test09272",
+                  "deviceProduct": {},
+                  "externalCode": "test09272",
+                  "id": "050C000000TnztxDAzya",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000SO7dIVsIUq",
+                  "channelCode": "IoT",
+                  "code": "Device201909261801530000006159",
+                  "createdDate": "2019-09-26 18:01:53",
+                  "deviceDef": {
+                      "code": "ManualFireAlarmActivation",
+                      "defName": "消防手报",
+                      "id": "0507000000TmJt8mfTRA"
+                  },
+                  "deviceLocation": {
+                      "space": "0A11000000S3VcmJpD4y",
+                      "spaceData": {
+                          "altitude": "",
+                          "latitude": "23.020902999999999",
+                          "longitude": "113.75809900000001"
+                      },
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "消防手报设备",
+                  "deviceProduct": {},
+                  "externalCode": "ManualFireAlarmActivation",
+                  "id": "050C000000TmK8xWTTea",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000SO7dIVsIUq",
+                  "channelCode": "IoT",
+                  "code": "Device201909261751500000006158",
+                  "createdDate": "2019-09-26 17:51:50",
+                  "deviceDef": {
+                      "code": "ElectricityMeter",
+                      "defName": "电表",
+                      "id": "0507000000SO7dIdXT0a"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.0564751625061,22.657233774662018,,,",
+                      "space": "0A11000000T01NVcEU9A",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000T01NVcEU9A",
+                              "parent": "0A11000000S3VcmJpD4y",
+                              "spaceCode": "资产07",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "H区"
+                          },
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "电表01",
+                  "deviceProduct": {},
+                  "externalCode": "电表01",
+                  "id": "050C000000TmJQQ8O8I4",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000SO7dIVsIUq",
+                  "channelCode": "IoT",
+                  "code": "Device201909251719440000006157",
+                  "createdDate": "2019-09-25 17:19:44",
+                  "deviceDef": {
+                      "code": "PAD",
+                      "defName": "人脸识别器",
+                      "iconUrl": "",
+                      "id": "0507000000SoO90LEPdA"
+                  },
+                  "deviceLocation": {
+                      "space": "0A11000000S3VcmJpD4y",
+                      "spaceData": {
+                          "altitude": "",
+                          "latitude": "23.020902999999999",
+                          "longitude": "113.75809900000001"
+                      },
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "test0925PAD",
+                  "deviceProduct": {},
+                  "externalCode": "test0925PAD",
+                  "id": "050C000000TkcEDfcj8S",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000Sy2cc4vrzk",
+                  "channelCode": "Closeli",
+                  "code": "Device201909251007240000006156",
+                  "createdDate": "2019-09-25 10:07:24",
+                  "deviceDef": {
+                      "code": "camera",
+                      "defName": "摄像头",
+                      "iconUrl": "",
+                      "id": "0507000000SO86wK3Xns"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.05750320682526,22.65782730112076,0,,",
+                      "space": "0A11000000SJ70PVW4RM",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000SJ70PVW4RM",
+                              "parent": "0A11000000S3VcmJpD4y",
+                              "spaceCode": "资产01",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "A区"
+                          },
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "172_21_151_188登虹",
+                  "deviceProduct": {},
+                  "externalCode": "07032971484978730101#3b95930b0b714e54891e63aaa0623c91",
+                  "id": "050C000000Tk7Ki762mO",
+                  "status": "INACTIVE"
+              },
+              {
+                  "channel": "050J000000SyOuKLbZmi",
+                  "channelCode": "AllCam",
+                  "code": "Device201909211516200000006104",
+                  "createdDate": "2019-09-21 15:16:20",
+                  "deviceDef": {
+                      "code": "camera",
+                      "defName": "摄像头",
+                      "iconUrl": "",
+                      "id": "0507000000SO86wK3Xns"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.05804693698883,22.657856047153473,0,,",
+                      "space": "0A11000000SJ70PVW4RM",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000SJ70PVW4RM",
+                              "parent": "0A11000000S3VcmJpD4y",
+                              "spaceCode": "资产01",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "A区"
+                          },
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "172.21.151.154",
+                  "deviceProduct": {},
+                  "externalCode": "07462661282496820101#32d350ed7bbd469e84768118c7f2d584",
+                  "id": "050C000000TdpnK1BEmm",
+                  "status": "INACTIVE"
+              },
+              {
+                  "channel": "050J000000TVAMLMUTDM",
+                  "channelCode": "basepoint.connectionmax.iot",
+                  "code": "Device201909181510240000006089",
+                  "createdDate": "2019-09-18 15:10:24",
+                  "deviceDef": {
+                      "code": "AccessControl",
+                      "defName": "门禁",
+                      "id": "0507000000TYa8ch8QWe"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.05749976634979,22.657695114612583,0,,",
+                      "space": "0A11000000S3VcmJpD4y",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "门禁",
+                  "deviceProduct": {
+                      "code": "PK-C3885",
+                      "id": "050S000000TYa8fHEBt2",
+                      "productName": "披克科技"
+                  },
+                  "externalCode": "dded42aa-7480-4a4b-93e6-45fde434b273",
+                  "id": "050C000000TYqetIfH3A",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000TYarxiBWXw",
+                  "channelCode": "EasyGBS",
+                  "code": "Device201909181122540000006088",
+                  "createdDate": "2019-09-18 11:22:54",
+                  "deviceDef": {
+                      "code": "camera",
+                      "defName": "摄像头",
+                      "iconUrl": "",
+                      "id": "0507000000SO86wK3Xns"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.05775189399719,22.656874358654022,0,,",
+                      "space": "0A11000000SJ70PVW4RM",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000SJ70PVW4RM",
+                              "parent": "0A11000000S3VcmJpD4y",
+                              "spaceCode": "资产01",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "A区"
+                          },
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "旭帆",
+                  "deviceProduct": {},
+                  "externalCode": "34020000001110000333",
+                  "id": "050C000000TYaOuq7zCS",
+                  "status": "DELETED"
+              },
+              {
+                  "channel": "050J000000SO86w3JD84",
+                  "channelCode": "VideoCloudHuawei",
+                  "code": "Device201909180947090000006087",
+                  "createdDate": "2019-09-18 09:47:09",
+                  "deviceDef": {
+                      "code": "camera",
+                      "defName": "摄像头",
+                      "iconUrl": "",
+                      "id": "0507000000SO86wK3Xns"
+                  },
+                  "deviceLocation": {
+                      "coordinate": "114.057673351669,22.6550523804664,0,,",
+                      "space": "0A11000000SJ7WZjFCca",
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000SJ7WZjFCca",
+                              "parent": "0A11000000S3VcmJpD4y",
+                              "spaceCode": "资产03",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "C区"
+                          },
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "测试333B",
+                  "deviceProduct": {},
+                  "externalCode": "test333B",
+                  "id": "050C000000TYTYiaZq2C",
+                  "status": "ACTIVE"
+              },
+              {
+                  "channel": "050J000000SO7dIVsIUq",
+                  "channelCode": "IoT",
+                  "code": "Device201909171832060000006084",
+                  "createdDate": "2019-09-17 18:32:06",
+                  "deviceDef": {
+                      "code": "PAD",
+                      "defName": "人脸识别器",
+                      "iconUrl": "",
+                      "id": "0507000000SoO90LEPdA"
+                  },
+                  "deviceLocation": {
+                      "space": "0A11000000S3VcmJpD4y",
+                      "spaceData": {
+                          "altitude": "",
+                          "latitude": "23.020902999999999",
+                          "longitude": "113.75809900000001"
+                      },
+                      "spaceInPath": [
+                          {
+                              "id": "0A11000000S3VcmJpD4y",
+                              "parent": "0A11000000S3VUppDKsq",
+                              "spaceCode": "441911",
+                              "spaceLevel": "0A10000000RLEVueyUXg",
+                              "spaceName": "清澜山学校"
+                          },
+                          {
+                              "id": "0A11000000S3VUppDKsq",
+                              "parent": "0A11000000RTMP3xkLR2",
+                              "spaceCode": "441910",
+                              "spaceLevel": "0A10000000RLEQZ3nmUq",
+                              "spaceName": "松山湖"
+                          },
+                          {
+                              "id": "0A11000000RTMP3xkLR2",
+                              "parent": "0A11000000RTMOhTSgW8",
+                              "spaceCode": "441900",
+                              "spaceLevel": "0A10000000RLEObp632O",
+                              "spaceName": "东莞市"
+                          },
+                          {
+                              "id": "0A11000000RTMOhTSgW8",
+                              "parent": "0A11000000RTMOgV07oO",
+                              "spaceCode": "440000",
+                              "spaceLevel": "0A10000000RLEMjqFou0",
+                              "spaceName": "广东省"
+                          },
+                          {
+                              "id": "0A11000000RTMOgV07oO",
+                              "parent": "",
+                              "spaceCode": "0",
+                              "spaceLevel": "0A10000000RLEKhvjddg",
+                              "spaceName": "中国"
+                          }
+                      ]
+                  },
+                  "deviceName": "测试123",
+                  "deviceProduct": {},
+                  "externalCode": "Test123",
+                  "id": "050C000000TXQAVUr3Cq",
+                  "status": "ACTIVE"
+              }
+          ]
+      }
+  ]
+}

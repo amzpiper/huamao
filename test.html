@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+    window.onload = function myFunction() {
+
+        var str = "https://studio.e.huawei.com/magno/render/hm_bigScreen__HMSystemManagement_0000000000hdy26HBtdx/hmoauthLogin?Uid=adfasdf&userToken=jsafdjf1";
+        var n = str.indexOf("Uid=");
+        var text = str.substr(n,str.length)
+        console.log("text:"+text)
+
+        var nParamOne = text.indexOf("Uid=");
+        var nParamTwo = text.indexOf("&");
+        var paramOne = text.substr(nParamOne+4,nParamTwo-4)
+        console.log("nParamOne:"+nParamOne)
+        console.log("nParamTwo:"+nParamTwo)
+        console.log("paramOne:"+paramOne)
+    
+        var paramTwo = text.substr(nParamTwo+11,str.length)
+        console.log("paramTwo:"+paramTwo)
+
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+initLogin(){
+    var _this = this;
+    //https://studio.e.huawei.com/magno/render/hm_bigScreen__HMSystemManagementDev_0000000000hdy26HBtdx/HMLogin
+    //https://abc.hicampuscube.com/magno/render/SmartCampus__SystemManagement_0000000000isilxEPk7V/HMLogin
+    let param = {
+        "parameterNames": [
+            "hmPortalIndexUrl"
+        ]
+    };
+    thisObj.callFlowConn("/Common/0.1.0/getSysParameters", param1,"POST", function (vm) {
+        if (vm && vm.resp && vm.resp.code == '0') {
+            if (vm.data[0]) {
+                let data = vm.data[0].parameters;
+                potalIndexUrl = data.PortalIndexUrl;
+                console.log("data.PortalIndexUrl",data.PortalIndexUrl)
+            }
+        }
+    })
+
+    //https://studio.e.huawei.com/magno/render/hm_bigScreen__HMSystemManagement_0000000000hdy26HBtdx/hmoauthLogin?Uid=123&userToken=123123
+    //调用IOC第三方登录接口
+    _this.location = window.location.href;
+    console.log("location:",_this.location)
+    str = _this.location
+    var n = str.indexOf("Uid=");
+    var text = str.substr(n,str.length)
+    console.log("text:"+text)
+
+    var nParamOne = text.indexOf("Uid=");
+    var nParamTwo = text.indexOf("&");
+    var paramOne = text.substr(nParamOne+4,nParamTwo-4)
+    console.log("nParamOne:"+nParamOne)
+    console.log("nParamTwo:"+nParamTwo)
+    console.log("paramOne:"+paramOne)
+    var paramTwo = text.substr(nParamTwo+11,str.length)
+    console.log("paramTwo:"+paramTwo)
+
+    param = {
+        "Uid": paramOne,
+        "userToken": paramTwo
+    };
+    thisObj.callFlowConn("/hm_bigScreen__HMSystemManagement/1.0.0/oauthLogin", param, "POST",function (vm) {
+        console.log("resp:",vm)
+        if (vm && vm.resp && vm.resp.code == '0') {
+            if (vm.data[0]) {
+                //登录成功，跳转到IOC页面
+                let data = vm.data[0];
+                console.log("第三方登录成功:"+data)
+                console.log("window.location.href=",potalIndexUrl)
+                window.location.href = potalIndexUrl;
+            }
+        }
+    })
+}

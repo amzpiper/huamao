@@ -1,0 +1,17 @@
+{
+    "properties": [],
+    "propertyGroups": [],
+    "itemDescription": [],
+    "events": [],
+    "actions": [],
+    "widgetSettings": {
+        "widgetName": "SC_Map_Widget",
+        "widgetDescription": "Widget for Displaying GIS Map",
+        "authorName": "",
+        "multipleItems": false,
+        "supportHotspots": false,
+        "localFileBasePath": "",
+        "serverRendered": true,
+        "lastSaved": "2019-09-05 06:58:12 UTC"
+    }
+}

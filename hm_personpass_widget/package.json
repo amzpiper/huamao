@@ -1,0 +1,15 @@
+{
+  "name": "hm_personpass_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"华贸人员通行记录\",\"zh_CN\":\"华贸人员通行记录\"}",
+  "widgetname": "{\"en_US\":\"HmPersonPass\",\"zh_CN\":\"HmPersonPass\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

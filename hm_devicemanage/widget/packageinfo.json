@@ -1,0 +1,39 @@
+{
+  "widgetApi": [
+    {
+      "name": "HM_DeviceManage"
+    }
+  ],
+  "widgetDescription": "华贸设施信息管理",
+  "authorName": "LCL",
+  "i18n": [
+    {
+      "name": "messages-en"
+    },
+    {
+      "name": "messages-zh"
+    }
+  ],
+  "requires": [
+    {
+      "name": "global_Vue",
+      "version": "100.8.4"
+    },
+    {
+      "name": "global_VueRouter",
+      "version": "1.0.2"
+    },
+    {
+      "name": "global_VueI18n",
+      "version": "100.7.5"
+    },
+    {
+      "name": "global_Element",
+      "version": "101.0.4"
+    },
+    {
+      "name": "global_SCThemeCSS4IOC",
+      "version": "3.9.0"
+    }
+  ]
+}

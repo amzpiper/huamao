@@ -1,0 +1,167 @@
+#HW_Camera_Control_Widget .selected{
+    border: 1px solid #ffa233 !important;
+}
+#HW_Camera_Control_Widget .iframe1 {
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    border: 1px solid #a9a9a9;
+    box-sizing: border-box
+}
+#HW_Camera_Control_Widget .iframe4 {
+    float: left;
+    height: calc(50% - 2px);
+    width: calc(50% - 2px);
+    border: 1px solid #a9a9a9;
+    box-sizing: border-box
+}
+#HW_Camera_Control_Widget .iframe9 {
+    float: left;
+    height: calc(33.3% - 2px);
+    width: calc(33.3% - 2px);
+    border: 1px solid #a9a9a9;
+    box-sizing: border-box
+}
+#HW_Camera_Control_Widget .iframe16 {
+    float: left;
+    height: calc(25% - 2px);
+    width: calc(25% - 2px);
+    border: 1px solid #a9a9a9;
+    box-sizing: border-box
+}
+#HW_Camera_Control_Widget .video-mask{
+    position:relative;
+    height: 72px;
+    width: 72px;
+    left: calc(50% - 36px);
+    top: calc(-50% - 48px);
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 20;
+}
+#HW_Camera_Control_Widget .video-mask img {
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 20;
+}
+#HW_Camera_Control_Widget .showDeviceName{
+    position: absolute;
+    margin: 1rem;
+    z-index: 10;
+    width: 25%;
+    color: red;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+}
+body .el-message{
+    top: 50px !important;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+#HW_Camera_Control_Widget .buttons{
+    background: transparent !important;
+}
+
+.HW_Camera_Control_Widget .video-slider .el-slider__runway{
+    margin: 1rem !important;
+}
+.HW_Camera_Control_Widget .video-slider .slider-time {
+    margin-top: -1.65rem !important;
+}
+.HW_Camera_Control_Widget .el-slider__runway .el-slider__bar {
+    background-color: #ff8b00 !important;
+}
+.vjs-has-started.vjs-paused .vjs-big-play-button {
+    left: 50% !important;
+    top: 50% !important;
+    margin-left: -36px;
+    margin-top: -36px;
+    width: 72px;
+    height: 72px;
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    border-radius: 72px;
+}
+.video-js .vjs-big-play-button .vjs-control-text{
+    display: none;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 72px;
+    line-height: 72px;
+    height: 72px;
+    width: 72px;
+    font-size: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.vjs-playing .vjs-big-play-button {
+    display: none;
+}
+.video-js .vjs-loading-spinner span{
+    display: none;
+}
+#HW_Camera_Control_Widget .control-ptz-disable{
+    cursor: not-allowed;
+}
+#HW_Camera_Control_Widget .btn-disable .btn{
+    cursor: not-allowed;
+}
+
+/*时间选择器新增*/
+.HW_Camera_Control_Widget .left-operate.playback .time-selector input {
+    background: #0e1426;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    width: 18.25rem;
+    border: 1px solid #39465d;
+}
+.el-date-editor .el-range-separator {
+    color: #e4e7ed;
+}
+.el-date-table td.disabled div {
+    background-color: #f5f7fa00;
+    opacity: 1;
+    cursor: not-allowed;
+    color: #c0c4cc;
+}
+ .el-picker-panel__footer {
+    border-top: 1px solid #e4e4e4;
+    padding: 4px;
+    text-align: right;
+    background-color: #202945;
+    position: relative;
+    font-size: 0
+}
+ .el-date-editor--datetimerange.el-input,  .el-date-editor--datetimerange.el-input__inner {
+    width: 646px
+}
+/*时间选择器新增*/
+.HW_Camera_Control_Widget .left-operate.playback .button-control div {
+    cursor: pointer;
+    height: 2.3rem;
+    width: 6.3rem;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #3467d1;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HW_Camera_Control_Widget .left-operate.playback>div:last-child div {
+    position: relative;
+    float: right;
+    left: 80px;
+}

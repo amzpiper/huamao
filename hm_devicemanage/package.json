@@ -1,0 +1,15 @@
+{
+  "name": "hm_devicemanage",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"HM Device Management\",\"zh_CN\":\"HM Device Management\"}",
+  "widgetname": "{\"en_US\":\"HM Device Management\",\"zh_CN\":\"HM Device Management\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

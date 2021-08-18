@@ -1,0 +1,13 @@
+{
+  "resCode": "0",
+  "resMsg": "成功",
+  "result": [
+    {
+      "ACTIVE": 7,
+      "DELETED": 1,
+      "INACTIVE": 2,
+      "UNREG": 0,
+      "total": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hm_organization_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"华贸组织组件\",\"zh_CN\":\"华贸组织组件\"}",
+  "widgetname": "{\"en_US\":\"HmOrganization\",\"zh_CN\":\"HmOrganization\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

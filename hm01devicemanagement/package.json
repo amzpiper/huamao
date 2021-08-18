@@ -1,0 +1,15 @@
+{
+  "name": "hm01devicemanagement",
+  "version": "1.0.0",
+  "description": "增加同步龙腾设备列表功能",
+  "widgetname": "HM01DeviceManagement",
+  "author": "guoyha",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

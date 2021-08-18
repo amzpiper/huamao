@@ -1,0 +1,45 @@
+{
+  "widgetApi": [
+    {
+      "name": "HmPersonManagement"
+    }
+  ],
+  "widgetDescription": "",
+  "authorName": "",
+  "localFileBasePath": "",
+  "width": "",
+  "height": "",
+  "i18n": [
+    {
+      "name": "messages-en"
+    },
+    {
+      "name": "messages-zh"
+    }
+  ],
+  "requires": [
+    {
+      "name": "global_Vue",
+      "version": "100.7"
+    },
+    {
+      "name": "global_VueI18n",
+      "version": "100.7"
+    },
+	{
+      "name": "global_Element",
+      "version": "100.8"
+    }, {
+      "name": "global_xss",
+      "version": "100.7"
+    },
+    {
+      "name": "global_SCThemeCSS4IOC",
+      "version": "3.2.0"
+    },
+    {
+      "name": "global_SCWebSocketHeartBeat",
+      "version": "1.0"
+    }
+  ]
+}

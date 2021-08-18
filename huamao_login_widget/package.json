@@ -1,0 +1,15 @@
+{
+  "name": "huamao_login_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"华贸自定义登录界面\",\"zh_CN\":\"华贸自定义登录界面\"}",
+  "widgetname": "{\"en_US\":\"huamaologinwidget\",\"zh_CN\":\"huamaologinwidget\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

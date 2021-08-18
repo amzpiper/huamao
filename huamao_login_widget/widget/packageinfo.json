@@ -1,0 +1,34 @@
+{
+  "widgetApi": [
+    {
+      "name": "huamao_login_widget"
+    }
+  ],
+  "widgetDescription": "huamao_login_widget",
+  "authorName": "",
+  "localFileBasePath": "",
+  "width": "",
+  "height": "",
+  "i18n": [
+    {
+      "name": "messages-en"
+    },
+    {
+      "name": "messages-zh"
+    }
+  ],
+  "requires": [
+    {
+      "name": "global_Vue",
+      "version": "100.7"
+    },
+    {
+      "name": "global_VueI18n",
+      "version": "100.7"
+    },
+	{
+      "name": "global_Element",
+      "version": "100.8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hmpersonmanagement",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"华贸人员管理\",\"zh_CN\":\"华贸人员管理\"}",
+  "widgetname": "{\"en_US\":\"HmPersonManagement\",\"zh_CN\":\"HmPersonManagement\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

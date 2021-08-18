@@ -1,0 +1,167 @@
+{
+    "zh-CN": {
+        "key": "value",
+        "language": "zh-CN",
+        "user_settings": "用户设置",
+        "seconds": "秒",
+        "exit": "退出",
+        "noData":"暂无数据",
+        "handoverArea":"切换区域",
+        "reset":"复位",
+        "alarm": "告警",
+        "popup": "弹窗",
+        "major": "严重",
+        "importance": "重要",
+        "common": "普通",
+        "information": "提示",
+        "messageSwitch": "消息开关",
+        "soundSwitch": "声音开关",
+        "error": "错误",
+        "modifying":"修改中...",
+        "userSetting": {
+            "title": "用户设置",
+            "basicInfo": {
+                "label": "基本信息",
+                "name": {
+                    "label": "姓名",
+                    "placeholder": "2-32位非特殊字符"
+                },
+                "mail": {
+                    "label": "邮箱"
+                },
+                "phoneNumber": {
+                    "label": "电话",
+                    "placeholder": "请输入手机号或者固定电话号码"
+                },
+                "back":"返回",
+                "acctAndSafe": {
+                    "title":"账号与安全",
+                    "hello":"您好，",
+                    "bindPhone":"绑定手机",
+                    "bindEmail":"绑定邮箱",
+                    "modify":"修改",
+                    "bind":"绑定",
+                    "certify":"认证",
+                    "hasBeenSet":"已设置",
+                    "noSet":"未设置",
+                    "hasBeenCertify":"已认证",
+                    "noCertify":"未认证",
+                    "psw":"登录密码",
+                    "pswWarn":"安全性高的密码可以使账号更安全，建议您定期更换密码。"
+                },
+                "drawer":{
+                    "abnormal":"账号状态异常，请使用其他账号登录",
+                    "authentication":"身份验证",
+                    "entryInfo":"录入信息",
+                    "complete":"完成",
+                    "authenTip":" 为了您的账号安全，进行敏感操作前，请确认是本人操作，进行身份验证。",
+                    "pswInput":"请输入密码",
+                    "BoundPhone":"已绑定手机",
+                    "BoundEmail":"已绑定邮箱",
+                    "otherAuthenWay":"其他验证方式",
+                    "imgCode":"图片验证码",
+                    "imgCodeInput":"请输入图片验证码",
+                    "imgCodeRefresh":"点击刷新验证码",
+                    "verifyCodeInput":"请输入验证码",
+                    "newPhone":"新手机号",
+                    "newPhoneInput":"请输入手机号",
+                    "newEmail":"新邮箱",
+                    "newEmailInput":"请输入邮箱",
+                    "correctPhoneInput":"请输入正确的手机号码",
+                    "correctEmailInput":"请输入正确的邮箱",
+                    "verifyCode":"验证码",
+                    "updatePhone":"更新手机号码",
+                    "updateEmail":"更新邮箱",
+                    "certifyPhone":"认证手机号码",
+                    "certifyEmail":"认证邮箱",
+                    "psw":"密码",
+                    "pswModify":"修改密码",
+                    "boundInfo":"已绑定：",
+                    "phoneBoundInfo":"您已绑定了手机",
+                    "phoneNoBoundInfo":"您暂未绑定手机",
+                    "emailBoundInfo":"您已绑定了邮箱",
+                    "emailNoBoundInfo":"您暂未绑定邮箱",
+                    "verifyCodeGet":"获取验证码",
+                    "wrongPsw":"密码不正确，请确认。",
+                    "sure2Close":"确认要关闭吗？",
+                    "phone":"手机号 ",
+                    "email":"邮箱地址 ",
+                    "occupied":" 已被占用，请重新填写。"
+                }
+            },
+            "passwordChange": {
+                "label": "密码修改",
+                "rule": {
+                    "label": "为了您的信息安全，新密码需满足以下要求：",
+                    "minLen": "最小长度为{0}位",
+                    "maxLen": "最大长度为{0}位",
+                    "atLeast": "至少包含",
+                    "uppercase": "大写字母",
+                    "lowercase": "小写字母",
+                    "digit": "数字",
+                    "specChar": "特殊字符",
+                    "comparePsw": "与旧密码至少有{0}个不重复字符"
+                },
+                "oriPsw": {
+                    "label": "旧密码",
+                    "required": "请输入原密码"
+                },
+                "psw": {
+                    "label": "新密码",
+                    "required": "请输入密码"
+                },
+                "rePsw": {
+                    "label": "新密码确认",
+                    "required": "请确认密码",
+                    "confirm": "两次密码请保持一致"
+                }
+            }
+        },
+        "about": {
+            "title": "关于",
+            "package": "软件包名称",
+            "version": "版本名称",
+            "lastModifiedDate": "更新时间"
+        },
+        "rule": {
+            "minLen": "请至少设置{0}位字符",
+            "maxLen": "密码设置不能超过{0}位字符",
+            "uppercase": "至少包含一个大写字母",
+            "lowercase": "至少包含一个小写字母",
+            "digit": "至少包含一个数字",
+            "specChar": "至少包含一个特殊字符",
+            "pswValidate": "密码需保持一致",
+            "enterName": "请输入姓名",
+            "nameValidate": "请输入2-32位字符",
+            "nameSpecChar": "请不要包含特殊字符",
+            "format": "格式不符"
+        },
+        "button": {
+            "cancel": "取消",
+            "save": "保存",
+            "ok": "确定"
+        },
+        "message": {
+            "success": "修改成功",
+            "editError": "修改失败",
+            "pswChangeSuccess": "密码修改成功，请重新登录",
+            "invalidImageType": "图片类型错误",
+            "exceedImageSize": "图片大小不要超过{0}MB",
+            "noSpaceRoot": "未配置空间根，无法展示相应的空间数据",
+            "noDefaultSpace": "未配置当前默认空间，无法展示相应的空间数据",
+            "warmReminder": "温馨提醒",
+            "noPhoneAndEmailTip": "检测到您仍未绑定手机号及邮箱，建议您到 ' 用户设置-账号与安全 ' 中任选其一进行设置，便于后续密码找回。",
+            "noCertifyTips": "检测到您所填写的手机号及邮箱未经认证，建议您到 ' 用户设置-账号与安全 ' 中任选其一进行认证，便于后续密码找回。",
+            "alarmType": "告警类型",
+            "alarmSound": "声音设置",
+            "alarmConf": "告警设置",
+            "openNewTab": "页面已在新标签页中打开"
+        },
+        "alarmNotifyBtn" : "查看",
+        "alarmIns": {
+            "safety": "安防告警",
+            "device": "设施告警",
+            "energy": "能效告警"
+        }
+    }
+}

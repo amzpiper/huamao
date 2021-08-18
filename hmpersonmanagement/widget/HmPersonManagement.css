@@ -1,0 +1,385 @@
+#PersonManagement .loading{
+    width: 150px;
+    height: 15px;
+    margin: 0 auto;
+    text-align: center;
+    color:#9297b6;
+}
+#PersonManagement .loading span{
+display: inline-block;
+width: 5px;
+height: 5px;
+margin-right: 5px;
+border-radius: 100%;
+background: #1f2033;
+-webkit-animation: load 1.04s ease infinite;
+}
+#PersonManagement .loading span:last-child{
+margin-right: 0px; 
+}
+@-webkit-keyframes load{
+0%{
+opacity: 1;
+}
+100%{
+opacity: 0;
+}
+}
+#PersonManagement .loading span:nth-child(1){
+-webkit-animation-delay:0.13s;
+}
+#PersonManagement .loading span:nth-child(2){
+-webkit-animation-delay:0.26s;
+}
+#PersonManagement .loading span:nth-child(3){
+-webkit-animation-delay:0.39s;
+}
+#PersonManagement .loading span:nth-child(4){
+-webkit-animation-delay:0.52s;
+}
+#PersonManagement .loading span:nth-child(5){
+-webkit-animation-delay:0.65s;
+}
+#PersonManagement .fade-enter-active, #PersonManagement .fade-leave-active {
+    transition: opacity .5s;
+  }
+  #PersonManagement .fade-enter,#PersonManagement .fade-leave-to {
+    opacity: 0;
+}
+#PersonManagement .avater{
+    width:148px;
+    height:148px;
+}
+#PersonManagement .el-textarea .el-input__count{
+    background: transparent;
+    color:#fff;
+    bottom: -30px;
+}
+
+#PersonManagement .info-btn{
+    border-bottom:1px solid #ff8b00;
+    padding: 10px 0;
+     min-height:2rem;
+}
+
+#PersonManagement .el-drawer .el-upload {
+    text-align: center;
+  }
+
+#PersonManagement   .el-drawer .el-drawer__body{
+    padding:0 20px!important;
+  }
+#PersonManagement  .person_region {
+    background: none;
+    border: none;
+    box-shadow: rgba(27, 26, 51, 0.7) 0px 1rem 3rem 0px;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1)>div {
+    border: 0.063rem solid rgba(89, 91, 128, 0.3);
+    width: 12.5rem;
+    background: #1f2033;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1)>div:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1)>div:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1) .el-cascader-menu__list li {
+    color: white;
+    font-size: 0.875rem;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1) .el-cascader-menu__list .in-active-path {
+    color: #ff8b00;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1) .el-cascader-menu__list .el-cascader-node:not(.is-disabled):focus,
+#PersonManagement .person_region>div:nth-of-type(1) .el-cascader-menu__list .el-cascader-node:not(.is-disabled):hover {
+    background: rgba(75, 77, 115, 0.3);
+    color: #ff8b00;
+}
+
+#PersonManagement .person_region>div:nth-of-type(1) .el-cascader-menu__list .in-checked-path {
+    color: #ff8b00;
+}
+
+#PersonManagement .person_region .popper__arrow {
+    border-top-color: rgba(89, 91, 128, 0.3) !important;
+    border-bottom-color: rgba(89, 91, 128, 0.3) !important;
+}
+
+#PersonManagement .person_region .popper__arrow::after {
+    border-top-color: #1f2033 !important;
+    border-bottom-color: #1f2033 !important;
+}
+
+#PersonManagement .person_region .el-cascader-node:hover {
+    height: auto;
+}
+#PersonManagement .el-drawer .form-box{
+    display: flex;
+  }
+#PersonManagement  .el-drawer .form-box .el-form-item{
+    flex:1;
+    max-width: 22rem;
+    margin-right:1.5rem;
+  }
+#PersonManagement .el-drawer .form-box .el-form-item:last-child{
+    margin-right: 0;
+  }
+#PersonManagement .el-drawer .form-box .el-form-item .el-select,.el-drawer .person-attr .el-form-item .el-select{
+    width:100%;
+  }
+#PersonManagement .el-drawer .form-box .el-form-item .el-date-editor, .el-drawer .person-attr .el-form-item .el-date-editor{
+    width:100%;
+  }
+#PersonManagement .el-drawer .person-info{
+    margin-top: 2rem;
+  }
+#PersonManagement .el-drawer .person-attr {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  #PersonManagement .el-drawer .person-attr .el-form-item {
+    width: 32%;
+    margin-right: 1.35rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #PersonManagement .el-drawer .person-attr .el-form-item .el-form-item__label{
+    display: inline-block;
+    text-align: left;
+
+  }
+  #PersonManagement .el-drawer .person-attr .el-form-item .portalUserStyle{
+    display: flex;
+    flex-direction: row;
+  }
+  #PersonManagement .el-drawer .person-attr .el-form-item .portalUserStyle .createOperatorFlagStyle{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  #PersonManagement  .el-drawer .person-attr .el-form-item.no-maigin{
+      margin-right: 0;
+  }
+  #PersonManagement .el-drawer  .add-identity-btn,.el-drawer .add-license-btn,.el-drawer .add-organization-btn{
+      text-align: right;
+      margin-bottom:12px;
+  }
+  #PersonManagement  .el-input.is-disabled.el-input--suffix .el-input__icon{
+    display: none;
+  }
+  #PersonManagement  .el-pagination{
+      margin-bottom:1rem;
+  }
+  #PersonManagement  .el-select__tags-text{
+      width:4rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: inline-block;
+  }
+  #PersonManagement .el-tag.el-tag--info .el-tag__close{
+      vertical-align: super;
+  }
+  #PersonManagement .el-select-dropdown.el-popper {
+    margin-top: 3px !important;
+}
+
+#PersonManagement .person-license-info,
+#PersonManagement .person-organization-info {
+    margin-top: 2.5rem;
+}
+
+#PersonManagement .el-tag.el-tag--info.el-tag--small.el-tag--light {
+    background: #1f2033;
+    border: 1px solid #595b80;
+}
+
+#PersonManagement .add-person-info-btn {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#PersonManagement .add-person-info-btn .el-button--default {
+    background: #4b4d73 !important;
+    border: 1px solid #4b4d73;
+    border-radius: 2px;
+    color: #fff;
+    height: 36px;
+    line-height: 10px
+}
+
+#PersonManagement .add-person-info-btn .el-button--default:hover {
+    background: rgba(75, 77, 115, .5);
+}
+
+#PersonManagement .add-person-info-btn .el-button--primary {
+    background:#3f76ff  !important;
+    border: 1px solid#3f76ff;
+    line-height: 10px;
+    height: 36px
+}
+
+#PersonManagement .add-person-info-btn .el-button--primary:hover {
+    background: rgba(63, 118, 255, .8)
+}
+
+#PersonManagement .faceDeact {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #439af1;
+}
+
+#PersonManagement .el-table__empty-block {
+    height: auto !important;
+}
+
+#PersonManagement .el-date-table td.disabled div {
+    background: #1f2033 !important;
+}
+
+#PersonManagement .el-input.is-disabled .el-input__inner,
+#PersonManagement .el-textarea.is-disabled .el-textarea__inner {
+    background: #1f2033;
+    border-color: rgba(89, 98, 128, 0.2) !important;
+    color: rgba(146, 151, 182, 0.5) !important;
+}
+.el-select-dropdown{
+    max-width: 20.6rem;
+}
+.orginaztion-menu.el-dropdown-menu {
+        width: 10.7rem;
+        height: 15rem;
+        overflow: auto;
+        left: 12.8rem !important;
+        border: 1px solid #595b80!important;
+        background: #1b1a33 !important;
+        border-bottom-left-radius: 2px !important;
+        border-bottom-right-radius: 2px !important;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        padding: 0px !important;
+        margin-top: 0px!important;
+    }
+
+.orginaztion-menu.el-dropdown-menu  .el-dropdown-menu__item {
+    color: #fff;
+
+}
+  .orginaztion-menu.el-dropdown-menu  .el-dropdown-menu__item:hover {
+background: #353B59 !important;
+color:#fff  !important;
+}
+.el-date-table td.disabled div{
+    background: transparent!important;
+}
+
+.el-cascader-menu__list{
+    min-height: 2rem!important;
+}
+
+#PersonManagement .el-table_1_column_3 .cell,
+#PersonManagement .el-table_3_column_10 .cell,#PersonManagement .el-table_2_column_6 .cell{
+    text-align: center;
+}
+.number-input .el-input__inner{
+padding-right:0;
+}
+.scfContent{
+    overflow: hidden;
+    background-image: linear-gradient(0deg,#46476b,#2b2c47);
+}
+#PersonManagement .personmanagement-container .side-bar .opertion-icon-group .icon-item{
+    background: none;
+    cursor: not-allowed;
+}
+#PersonManagement .personmanagement-container .side-bar{
+    margin-top: 2.8rem;
+    /* width: auto; */
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.opertion-icon-group .el-button--text{
+    color:#fff;
+    display: block;
+    flex: 1;
+        font-size: 18px;
+}
+.card-item-btn-box .el-button--text{
+    padding: 0;
+}
+#PersonManagement .personmanagement-container .main .main-person-card-list .card-list .card-item .card-opt{
+    text-align: right;
+    width: 4.7rem !important;
+}
+#PersonManagement .password .el-dialog__body{
+    height: auto !important;
+}
+#PersonManagement .password .el-dialog__body p span{
+    font-size: 10px;
+}
+.el-tooltip__popper.is-dark{
+    background-color: black;
+}
+.el-tooltip__popper.is-dark p{
+    line-height: 1.5rem;
+}
+.el-checkbox__inner{
+    border: .0625rem solid #595b80;
+    background-color: #1f2033;
+}
+.el-checkbox__input.is-disabled .el-checkbox__inner{
+    border: .0625rem solid #595b80;
+    background-color: #1f2033;
+    opacity: 0.5;
+}
+#PersonManagement .personmanagement-container .main .card-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+#PersonManagement #pageSizesSelect{
+    width: 100px;
+}
+#PersonManagement .personmanagement-container .main .main-search {
+    margin-top: 1rem;
+}
+#PersonManagement .personmanagement-container .main .main-btn-group {
+    margin-top: 1.4rem !important;
+}
+#PersonManagement .personmanagement-container .main .main-person-card-list {
+    margin-top: 1.3rem !important;
+}
+#PersonManagement .personmanagement-container .main .main-person-card-list .card-list .card-item .card-bottom .card-info>p {
+    line-height: 1.8 !important;
+    display: flex;
+    align-items: center;
+    margin:0px;
+}
+.popper__arrow {
+    display: none !important;
+}
+
+p {
+    margin: 0;
+}
+.table {
+    background: #1f2033;
+}
+.hw-table .el-table{
+    overflow: hidden;
+    margin-bottom: 1.9rem;
+}
+
+

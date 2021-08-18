@@ -1,0 +1,15 @@
+{
+  "name": "hmlogin",
+  "version": "1.0.0",
+  "description": "HM IOC Login",
+  "widgetname": "HMLogin",
+  "author": "guoyha",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

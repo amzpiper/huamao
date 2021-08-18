@@ -1,0 +1,15 @@
+{
+  "name": "hm_dispatch_work_order",
+  "version": "1.0.0",
+  "description": "{\"zh_CN\":\"0\",\"en_US\":\"0\"}",
+  "widgetname": "{\"zh_CN\":\"hm_dispatch_work_order\",\"en_US\":\"hm_dispatch_work_order\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

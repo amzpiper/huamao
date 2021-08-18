@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Preview</title>
+    <meta name="title" content="Preview" />
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+        var STUDIO_READER_VERSION = "v1-min";
+        var STUDIO_PRIMARY_READER_VERSION = "v1";
+        var STUDIO_READER_TYPE = "v2";
+        var STUDIO_REQUIREJS_BASE_URL = "";
+        var STUDIO_REQUIREJS_JS_PATHS_CONFIG = {};
+        var STUDIO_REQUIREJS_CSS_PATHS_CONFIG = {};
+        var STUDIO_REQUIREJS_MODULE_ORDER = {
+            "css": [],
+            "js": []
+        };
+    </script>
+    <style type="text/css">
+        #studiop_1.sk-ui-layout-grid>.scfContent {
+            margin: 0px;
+            width: auto;
+        }
+        .sk-ui-layout-grid #page1 .sk-ui-layout-grid-cell {
+            padding: 0px;
+        }
+
+        .sk-ui-layout-grid #page1 .cls_absWidget .sk-ui-layout-grid-cell {
+            padding: 0px;
+        }
+
+        #page1 #skPageLayoutCell_1_id-1.sk-ui-layout-grid-cell {
+            width: 100.0%;
+        }
+    </style>
+    <style type="text/css">
+        [v-cloak] {
+            display: none !important;
+        }
+    </style>
+    <link href="reader.css" rel="stylesheet" type="text/css">
+    <script src="require.min.js" type="text/javascript"></script>
+	<script src="reader.js" type="text/javascript"></script>
+	<script src="beforeall.js" type="text/javascript"></script>
+    <script src="afterall.js" type="text/javascript"></script>
+    <script src="/stylebundle.js" type="text/javascript"></script>
+
+    <script>
+        var ROOT_PAGE_URL = "page1";
+        var SITE_ROOT_PATH = "";
+        var STUDIO_PREVIEW = false;
+        (function () {
+            var locationPath = decodeURI(location.pathname || "");
+            var siteName = "";
+            if (locationPath.match(/\/skavastream\/([semantic/]*)studio\/(reader|preview)/) != null) {
+                if (locationPath.lastIndexOf("/" + siteName + "/" + ROOT_PAGE_URL) > -1) {
+                    SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + siteName + "/" +
+                        ROOT_PAGE_URL)) + "/" + siteName;
+                } else if (locationPath.lastIndexOf("/" + siteName) > -1) {
+                    SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + siteName)) + "/" +
+                        siteName;
+                }
+            } else if (locationPath.length > 1 && locationPath.lastIndexOf("/" + ROOT_PAGE_URL) > -1) {
+                SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + ROOT_PAGE_URL));
+            }
+            if (SITE_ROOT_PATH && SITE_ROOT_PATH[SITE_ROOT_PATH.length - 1] == "/") {
+                SITE_ROOT_PATH = SITE_ROOT_PATH.substr(0, SITE_ROOT_PATH.length - 1);
+            }
+        })();
+        var STUDIO_CURRENT_VIEW = "web";
+        var STUDIO_DATA = {
+            "pages": {
+                "1": {
+                    "index": 0,
+                    "facets": {},
+                    "layoutType": "2"
+                }
+            },
+            "pluginIncludes": [{
+                "fileBasePath": "/widget/",
+                "fileName": "hm_data_presentation.zip",
+                "filePackageInfo": {
+                    "widgetDescription": "",
+                    "widgetApi": [{
+                        "name": "hm_data_presentation"
+                    }],
+                    "authorName": "mly",
+                    "width": 500,
+                    "height": 300,
+					"i18n": [
+						{
+						  "name": "messages-en"
+						},
+						{
+						  "name": "messages-zh"
+						}
+					],
+                },
+                "fileUrls": [
+                    "/widget/hm_data_presentation.editor.js",
+                    "/widget/hm_data_presentation.ftl",
+                    "/widget/hm_data_presentation.js",
+                    "/widget/packageinfo.json",
+                    "/widget/scaffolding.json",
+                    "/widget/hm_data_presentation.css"
+                ]
+            }],
+			"catalogProperties":{"add-CSRFToken":{"name":"add-CSRFToken","value":"true","displayName":"add CSRFToken Flag"}}
+        };
+        var STUDIO_PAGE_DATA = {
+            "pageId": "1",
+            "pageName": "page1",
+            "viewName": "web",
+            "dimensions": {
+                "width": 1920,
+                "height": 1080
+            },
+            "cells": {
+                "skPageLayoutCell_1_id-1": {
+                    "cellId": "skPageLayoutCell_1_id-1",
+                    "widget": {
+                        "widgetId": "1",
+                        "pageId": "1",
+                        "widgetName": "widget1",
+                        "widgetType": "hm_data_presentation",
+                        "currentItemIdx": 0,
+                        "properties": {"APIBridge":"common.global_connector_APIConnector"},
+                        "connectorProperties": {"APIBridge":{"connectorParams":{"requestMethod":"post","prefix":""},"connector":"common.global_connector_APIConnector","connectorPeriod":0,"displayName":"APIBridge","connectorModel":"ViewModel","connectorWidgetId":1,"connectorDataType":"connector","connectorType":"v2"}},
+                        "events": {},
+                        "eventsArray": [],
+                        "sortOrder": 2,
+                        "items": [],
+                        "libWidget": false,
+                        "absWidget": false,
+                        "widgetVersion": "v2"
+                    }
+                }
+            },
+            "gridLayout": {
+                "properties": {
+                    "columns": 12,
+                    "gutterSize": 0,
+                    "margin": 0,
+                    "padding": 0
+                },
+                "cells": [{
+                    "index": 0,
+                    "type": "",
+                    "cellId": "skPageLayoutCell_1_id-1",
+                    "cellNumber": 1,
+                    "properties": {
+                        "columns": 12,
+                        "hidden": false
+                    }
+                }]
+            },
+            "pageViewProperties": {},
+            "layoutType": "2"
+        };
+        var STUDIO_PAGE_LEVEL_MACRO = {};
+        var STUDIO_VERSION = "dev";
+    </script>
+    <script type="text/javascript">
+        var SKReaderReadyFnCalled = false;
+        var SKReader_ReadyCbk = function () {
+            readerObj.makeCenterPage("1");
+            function loadApp() {
+                $.support.cors = true;
+                var options = {};
+                options.CAMPAIGN_ID = 1;
+                options.IS_DV = false;
+                SKReader.initApp(options);
+            }
+            readerObj.loadedPluginRequires = [""];
+
+            if ("skReaderRequire" in window && typeof (skReaderRequire) === "function") {
+                skReaderRequire(["require"], function (req) {
+                    if ("define" in window && typeof (define) === "function") {
+                        var loadedJSModules = [];
+                        var loadedCSSModules = [];
+
+                        $.each(loadedJSModules, function (idx, def) {
+                            define(def, [], function () {
+                                //write code for on load definition
+                                return;
+                            });
+                        });
+
+                        $.each(loadedCSSModules, function (idx, def) {
+                            //TODO: To be fixed, don't access requirejs contexts directly. This code for CSS only
+                            require.s.contexts[STUDIO_REQUIREJS_CONTEXT_NAME].defined[def] =
+                                undefined;
+                        });
+
+                        //for requirejs defined module
+                        req(loadedJSModules, loadApp);
+                    } else {
+                        loadApp();
+                    }
+                });
+            } else {
+                loadApp();
+            }
+        };
+        var SKReader_PageShow = function () {
+            if (!SKReaderReadyFnCalled) {
+                SKReaderReadyFnCalled = true;
+                SKReader_ReadyCbk();
+            }
+        };
+
+        $(document).ready(function () {
+            SKReaderReadyFnCalled = true;
+            SKReader_ReadyCbk();
+        });
+    </script>
+	<script src="./addlibrary.js"></script>
+</HEAD>
+
+<BODY style="margin:0px; padding: 0px;" onpageshow="SKReader_PageShow()">
+    <noscript>
+        <div class="noScriptCont">
+            <div class="noScripterMsg">This site requires JavaScript. Please enable JavaScript in the browser settings
+                and try again.</div>
+        </div>
+    </noscript>
+    <div id="id_skStudio_Wrapper">
+        <div id="studiop_1" class="scfPage skcWebPage sk-ui-layout-grid sk-ui-layout-portrait" align="center"
+            data-pageid="1" data-viewName="web" data-pageUrl="page1" data-devicetype="3" data-gridcols="12"
+            data-gridguttersize="0" data-gridlayoutmargin="0">
+            <div id="id_scfContent_" class="scfContent" align="left">
+                <div id="page1" class="lyt_cont_div page" style="width: 100%;" flexiPage="false">
+                    <div id="sk_id_layout_grid">
+                        <div id="skPageLayoutCell_1_id-1"
+                            class="skc_pageCellLayout sk-ui-layout-grid-cell cls_skWidget widget1 " widgetId="1"
+                            widgetName="widget1" widgetType="hm_data_presentation" data-cols="12"
+                            data-cellnumber="1">
+                            <div class="cls_customWidgetAPI">
+                                <div class='skcCellContainer'>
+                                    <div class='sk-ui-layout-grid-cell-border' >
+                                        <div class='sk-ui-layout-grid-cell-background'>
+                                             <div class="hm_data_presentation">
+        <div class="cointer">
+            <div class="box">
+                <span class="text1"></span>
+            </div>
+            <div class="right">
+                <div class="text_size">工单总数</div>
+                <div class="text_blue">{{sumOrder}}</div>
+            </div>
+        </div>
+        <div class="cointer">
+            <div class="box">
+                <span class="text2"></span>
+            </div>
+            <div class="right">
+                <div class="text_size">结单数</div>
+                <div class="text_green">{{completeOrder}}</div>
+            </div>
+        </div>
+        <div class="cointer">
+            <div class="box">
+                <span class="text3"></span>
+            </div>
+            <div class="right">
+                <div class="text_size">超时工单</div>
+                <div class="text_red">{{overOrder}}</div>
+            </div>
+        </div>     
+    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</BODY>
+</HTML>

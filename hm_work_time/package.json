@@ -1,0 +1,15 @@
+{
+  "name": "hm_work_time",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"1.1\",\"zh_CN\":\"1.1\"}",
+  "widgetname": "{\"en_US\":\"hmworktime\",\"zh_CN\":\"hmworktime\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

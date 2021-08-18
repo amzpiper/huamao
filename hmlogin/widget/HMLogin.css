@@ -1,0 +1,135 @@
+.private .userInfo-item__cancelButton, .private .userInfo-item__okButton {
+    width:34%!important;
+    margin-top:0!important;
+    }
+    .private .userInfo-item__cancelButton span {
+        color:#ff8b00;
+    }
+    .private .userInfo-item__okButton span{
+        color:#fff;
+    }
+    .hw-icon-circle-check .el-checkbox__inner{
+        margin-top:-1px;
+        z-index: 2;
+        background-color: #1f2033;
+        border-color: #595b80;
+        border-radius: .125rem;
+    }
+    .hw-icon-circle-check  .el-checkbox__inner:hover {
+        background-color: #1f2033;
+        border-color: #ff8b00!important;
+    }
+    #login-container .bottomGradient:before{background: url(./image/login-bg.png) no-repeat;}
+    
+    #login-container .login-box__account {
+        text-indent: 0;
+        padding: 0 1rem 0 2rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    #login-container .login-box__password {
+        text-indent: 0;
+        padding: 0 1rem 0 2rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    #login-container .login-box__captcha {        
+        text-indent: 0;
+        padding: 0 6.5rem 0 2rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    #login-container .userInfo-item>input {
+        text-indent: 0;
+        padding: 0 2rem;
+    }
+    body, html {
+        background-image: linear-gradient(0deg,#46476b,#2b2c47) !important;
+    }
+    
+    .login-thirdTitle { 
+        background: #638aba;
+        z-index: 666;
+        padding: 0 7px;
+    }
+    #login-container .login-box {
+        margin: 6.5rem auto;
+    }
+    #login-container .login-box__title {
+        margin-top: 4.5rem;
+    }
+    /* todo */
+    #login-container .login-box__logo {
+        width: auto;
+        height: 6rem;
+    }
+    #login-container .login-box__button {
+        margin-top: 2.5rem;
+        border: none;
+    }
+    .login-thirdStatement {
+        font-size: 0.875rem;
+        color: #fff;
+    }
+    #login-container .thirdLintTitle .line-left {
+        background-image: url(./image/thirdLine-left.png);
+        background-repeat: no-repeat;
+        height: 1px;
+        position: absolute;
+        width: 7.5rem;
+        background-size: cover;
+        left: 0;
+        top:50%;
+    }
+    #login-container .thirdLintTitle .third-tips {
+        color: #fff;
+        vertical-align: middle;
+        text-align: center;
+        max-width: 190px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        padding: 0 10px;
+        line-height: 1.5;
+        font-size: 0.875rem;
+    }
+    #login-container .thirdLintTitle .third-forget {
+        color: #fff;
+        vertical-align: middle;
+        text-align: center;
+        max-width: 190px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        padding: 0 10px;
+        line-height: 1.5;
+        font-size: 0.875rem;
+    }
+    #login-container .thirdLintTitle .third-forget:hover {
+        color: #ff8b00;
+    }
+    #login-container .thirdLintTitle .line-right {
+        background-image: url(./image/thirdLine-right.png);
+        background-repeat: no-repeat;
+        height: 1px;
+        position: absolute;
+        width: 7.5rem;
+        background-size: cover;
+        right:0;
+        bottom: 50%;
+    }
+    #login-container .login-box__agreement a {
+        font-size: 0.875rem;
+    }
+    #login-container .login-box__agreement a:hover {
+        color: #ff8b00;
+    }
+    #login-container .thirdImage {
+        float: left;
+        margin: 0 0.4rem;
+        list-style-type: none;
+    }
+    

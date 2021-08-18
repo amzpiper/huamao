@@ -1,0 +1,167 @@
+{
+    "en-US": {
+        "key": "value",
+        "language": "en-US",
+        "user_settings": "User Settings",
+        "exit": "Exit",
+        "seconds": "seconds",
+        "noData":"No data available",
+        "handoverArea":"Handover area",
+        "reset":"Reset",
+        "alarm": "ALARM",
+        "popup": "POPUP",
+        "major": "MAJOR",
+        "importance": "CRITICAL",
+        "common": "NORMAL",
+        "information": "INFO",
+        "messageSwitch": "MESSAGE",
+        "soundSwitch": "SWITCH",
+        "error": "Error",
+        "modifying":"Modifying...",
+        "userSetting": {
+            "title": "User Settings",
+            "basicInfo": {
+                "label": "Basic Information",
+                "name": {
+                    "label": "Name",
+                    "placeholder": "Value is string of 2 to 32 non-special characters"
+                },
+                "mail": {
+                    "label": "E-Mail Address"
+                },
+                "phoneNumber": {
+                    "label": "Number",
+                    "placeholder": "Enter Mobile Number or Fixed-Line Phone Number"
+                },
+                "back":"Back",
+                "acctAndSafe": {
+                    "title":"Account And Safety",
+                    "hello":"Hello,",
+                    "bindPhone":"Bind Phone",
+                    "bindEmail":"Bind Email",
+                    "modify":"Update",
+                    "bind":"Bind",
+                    "certify":"Certify",
+                    "hasBeenSet":"Set",
+                    "noSet":"Not Set",
+                    "hasBeenCertify":"Authenticated",
+                    "noCertify":"Unauthorized",
+                    "psw":"Password",
+                    "pswWarn":"Password with high security make the account more secure. Change password regularly."
+                },
+                "drawer":{
+                    "abnormal":"Account status is abnormal, please login with other account",
+                    "authentication":"Authentication",
+                    "entryInfo":"Entry Information",
+                    "complete":"Complete",
+                    "authenTip":"For the security of your account, please make sure that you are the one to perform identity verification before performing sensitive operations.",
+                    "pswInput":"Enter password",
+                    "BoundPhone":"Phone Bound",
+                    "BoundEmail":"Email Bound",
+                    "otherAuthenWay":"Other Verification Way",
+                    "imgCode":"Image Verification Code",
+                    "imgCodeInput":"Enter image verification code",
+                    "imgCodeRefresh":"Click to refresh verification code",
+                    "verifyCodeInput":"Enter verification code",
+                    "newPhone":"New Phone",
+                    "newPhoneInput":"Enter phone number",
+                    "newEmail":"New Email",
+                    "newEmailInput":"Enter email",
+                    "correctPhoneInput":"Enter correct phone number",
+                    "correctEmailInput":"Enter correct email",
+                    "verifyCode":"Verification Code",
+                    "updatePhone":"Update Phone",
+                    "updateEmail":"Update Email",
+                    "certifyPhone":"Certify Phone",
+                    "certifyEmail":"Certify Email",
+                    "psw":"Password",
+                    "pswModify":"Update Password",
+                    "boundInfo":"Bound: ",
+                    "phoneBoundInfo":"You have bound your phone",
+                    "phoneNoBoundInfo":"You have not bound your phone",
+                    "emailBoundInfo":"You have bound your email",
+                    "emailNoBoundInfo":"You have not bound your email",
+                    "verifyCodeGet":"Get Code",
+                    "wrongPsw":"Password is incorrect, please confirm it.",
+                    "sure2Close":"Are you sure you want to close it? ",
+                    "phone":"Phone ",
+                    "email":"Email ",
+                    "occupied":" occupied, please fill in again."
+                }
+            },
+            "passwordChange": {
+                "label": "Password Change",
+                "rule": {
+                    "label": "For the security of your information, the new password should meet the following requirements:",
+                    "minLen": "Minimum length is {0} digits, ",
+                    "maxLen": "and maximum lenght is {0} digits",
+                    "atLeast": "Including",
+                    "uppercase": "uppercase letters, ",
+                    "lowercase": "lowercase letters, ",
+                    "digit": "numbers, ",
+                    "specChar": "special characters",
+                    "comparePsw": "At least {0} non-repeating characters of old passwords"
+                },
+                "oriPsw": {
+                    "label": "Old Password ",
+                    "required": "Enter old password"
+                },
+                "psw": {
+                    "label": "New Password",
+                    "required": "Enter new password"
+                },
+                "rePsw": {
+                    "label": "Confirm Password ",
+                    "required": "Enter Confirm password",
+                    "confirm": "Two passwords must be same"
+                }
+            }
+        },
+        "about": {
+            "title": "About",
+            "package": "Software Package",
+            "version": "Version Name",
+            "lastModifiedDate": "Update Time"
+        },
+        "rule": {
+            "minLen": "Password can contain a minimum of {0} characters",
+            "maxLen": "Password can contain a maximum of {0} characters",
+            "uppercase": "Password can contain at least one uppercase letter",
+            "lowercase": "Password can contain at least one lowercase letter",
+            "digit": "Password can contain at least one digit",
+            "specChar": "Password can contain at least one special character",
+            "pswValidate": "Passwords must be same",
+            "enterName": "Enter name",
+            "nameValidate": "Enter string of 2 to 32 characters",
+            "nameSpecChar": "Value cannot contain special characters",
+            "format": "Format is incorrect"
+        },
+        "button": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "ok": "OK"
+        },
+        "message": {
+            "success": "Operation is successful",
+            "editError": "Modification failed",
+            "pswChangeSuccess": "Operation is successful, please log in again",
+            "invalidImageType": "Incorrect image type",
+            "exceedImageSize": "Image size cannot exceed {0} MB",
+            "noSpaceRoot": "The space root is not configured to display the corresponding space data",
+            "noDefaultSpace": "The default selected space is not configured to display the corresponding space data",
+            "warmReminder": "Tips",
+            "noPhoneAndEmailTip": "It is detected that you have not bound your phone number and email. It is recommended that you choose one of the 'User Settings-Account and Safety' to set up, so that the password can be retrieved.",
+            "noCertifyTips": "It is detected that the phone number and email you filled in are not authenticated. It is recommended that you choose one of the 'User Settings-Account and Safety' for authentication to facilitate the password retrieval.",
+            "alarmType": "Alarm Type",
+            "alarmSound": "Sound Settings",
+            "alarmConf": "Alarm Settings",
+            "openNewTab": "Page opened in a new tab"
+        },
+        "alarmNotifyBtn" : "View",
+        "alarmIns": {
+            "safety": "Security Alarm",
+            "device": "Facility Alarm",
+            "energy": "Energy Efficiency Alarm"
+        }
+    }
+}

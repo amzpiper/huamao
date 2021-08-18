@@ -1,0 +1,61 @@
+.hw-dialog .el-dialog__title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.newupdal .el-upload-list__item-name{height: 25px;}
+.unitCode{
+display:flex;
+border:1px solid #595b80;
+    border-radius: 4px;
+}
+.unitCode:hover{
+    border-color:#C0C4CC
+}
+.unitCode .el-input__inner{border:none; height:2.35rem;}
+.unitCode .el-input__inner:hover{
+border:none;
+box-shadow:none;
+}
+.unitCode .el-input__inner:focus{
+border:none;
+box-shadow:none;
+}
+.unitCode span{
+    display: block;
+    flex: none;
+    line-height: 2.35rem;
+    padding: 0 10px;
+}
+.unitCode.unitCodetrue span{
+    background: #292947;
+}
+.unitCode.unitCodefalse span{
+    background: #1f2033;
+}
+.cascader_multiple .el-cascader__search-input{
+    background: #1f2033;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 15px;
+    height: 2.5rem;
+}
+
+.cascader_multiple .el-cascader{
+    overflow: auto;
+    background: #1f2033;
+    border-radius: 2px;
+}
+.cascader_multiple  .el-cascader__tags{
+    text-overflow: ellipsis;
+    width: 77%;
+    display: block;top: 0;
+    transform: translateY(0%);
+}
+
+.cascader_multiple .el-cascader .el-input.is-focus .el-input__inner {
+    caret-color: #ff8b00;
+    box-shadow: 0rem 0rem 0.5rem 0rem #1f2033;
+    border: solid 0.063rem #1f2033;
+}

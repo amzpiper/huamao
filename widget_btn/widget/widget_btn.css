@@ -1,0 +1,675 @@
+
+#widget_btn {
+    height: 80px;
+    background-color: rgba(27, 26, 51, 0.2);
+    padding: 5px 0 0 15px;
+    border-radius: 15px;
+}
+
+#widget_btn:hover {
+    background-color: rgba(27, 26, 51, 0.6);
+}
+
+/* ----- 拆楼按钮 ----- */
+.myButton {
+    padding: 5px 25px;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 12px #ccc;
+    background-color: #999;
+    margin-right: 10px;
+    width: 7.5rem;
+}
+
+.myButton:hover {
+    background-color: #999
+}
+
+.myButton:focus {
+    border: none;
+    color: green;
+    background-color: #ebebf3;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
+
+.btnClicked {
+    border: none;
+    color: green;
+    background-color: #ebebf3;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
+
+.rButton {
+    padding: 5px 25px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 12px #ccc;
+}
+
+/* ----- 传感器指标  ----- */
+
+#widget_btn .name {
+    font-size: 20px;
+}
+
+.hw-dialog .el-dialog__header {
+    height: 5.5rem;
+}
+
+.hw-dialog .el-dialog__title {
+    font-size: 2.5rem;
+}
+
+.hw-dialog .el-dialog__headerbtn .el-dialog__close {
+    font-size: 3rem;
+}
+
+.el-dialog__body {
+    font-size: 2rem;
+}
+
+.flashTime-box {
+    text-align: right;
+    margin-top: 3rem;
+}
+
+.myLi {
+    margin-bottom: 1rem;
+}
+
+.imageBox {
+    width: 6rem;
+    height: 6rem;
+}
+
+.qualified {
+    color: #E6A23C;
+    font-weight: bold;
+}
+
+/* =================================== */
+[v-cloak] {
+    display: none !important;
+}
+
+@media only screen and (max-width: 1920px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* -----------------------------------------面包屑------------------------------------------- */
+#smartcampus_menucrumb_widget {
+    z-index: 1000 !important;
+}
+
+.left__top--default {
+    padding: 1.5rem;
+}
+
+/* ------------------------------------------地图--------------------------------------------- */
+#SC_Map_Widget {
+    z-index: 1;
+}
+
+/* ----------------------------------------main-layout---------------------------------------- */
+.main-layout {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 24rem;
+    z-index: 1302;
+    opacity: 0.8;
+}
+
+.main-layout:hover {
+    opacity: 1;
+}
+
+.main-layout .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    flex: 0 0 21rem;
+    width: auto;
+    box-sizing: border-box;
+    background: #242344;
+    color: #fff;
+}
+
+.main-layout .left__top--default {
+    padding: 1.5rem;
+}
+
+.main-layout .left__aside {
+    height: 95%;
+    padding: 0 1rem 0rem 1rem;
+    overflow: auto;
+}
+
+.main-layout .left__bottom {
+    background-color: #1b1a33;
+    height: 3.5rem;
+    overflow: auto;
+}
+
+.iconImges {
+    width: 20px;
+    height: 20px;
+    margin: 0 1rem;
+}
+
+.lineimges {
+    height: 2rem;
+    border-left: 1px solid #595b80;
+    position: relative;
+    left: -1.65rem;
+    top: 1.7rem;
+}
+
+.left__aside .hw-card {
+    display: block !important;
+}
+
+.hw-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.hw-card__body .el-card {
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    background-color: rgba(27, 26, 51, 0.3);
+    border-radius: 4px;
+    border: solid 1px #4b4d73;
+    color: #cfd2e6;
+}
+
+.hw-card__body.el-card {
+    border: none;
+}
+
+.hw-card__body .el-card. el-card__body {
+    height: auto !important;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.hw-card__body.el-card .el-input__inner {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+.hw-card__body.el-card .rootSpaceSelect {
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: solid 0.0625rem #595b80;
+    /*border-bottom: none;*/
+}
+
+.hw-card__body.el-card .treeKey {
+    width: 90%;
+    height: 2.2rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: solid 0.0625rem #595b80;
+    border-radius: 1.5rem;
+    margin: 0 5%;
+}
+
+.hw-card__body.el-card .el-tree {
+    background: transparent;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+}
+
+.operationRow {
+    width: 100%;
+    border: solid 0.0625rem #595b80;
+    border-top: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operate-col {
+    width: 100%;
+    text-align: center;
+    line-height: 11rem;
+    border-right: 1px solid #4b4d73;
+}
+
+.operate-col-end {
+    border-right: none;
+}
+
+/* 点击树结构项的选中颜色 */
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+    background-color: rgba(184, 187, 204, 0.8);
+}
+
+/* 鼠标悬浮背景色 */
+.el-tree-node:focus > .el-tree-node__content {
+    background-color: rgba(184, 187, 204, 0.8);
+}
+
+.el-tree-node__content:hover {
+    background-color: rgba(184, 187, 204, 0.8);
+}
+
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+    background-color: rgba(184, 187, 204, 0.8);
+}
+
+/* -------------------------------------------------条件选择弹窗------------------------------------------- */
+#newSpace {
+    background: rgba(61, 73, 99, 0.95);
+    width: 60rem;
+    position: fixed;
+    cursor: all-scroll;
+    border-radius: 0.375rem;
+    z-index: 1301;
+}
+
+#newSpace input {
+    height: 2.5rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: solid 0.0625rem #595b80;
+    border-radius: 0.125rem;
+}
+
+#newSpace .el-textarea__inner {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: solid 0.0625rem #595b80;
+    border-radius: 0.125rem;
+}
+
+.newSpace-content {
+    padding: 1rem;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.newSpace-content .el-checkbox {
+    color: #ffffff;
+}
+
+#newSpace .el-form-item__label {
+    color: #FFFFFF;
+}
+
+#newSpace .newSpace .newSpace-Button {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+#newSpace .newSpace .wrapper .newSpace-title {
+    background-color: rgba(67, 69, 99, 1);
+    border-bottom: 1px solid rgb(255, 139, 0);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#newSpace .newSpace .wrapper .newSpace-title .close-btn-right-top {
+    transition: all 0.3s;
+    float: right;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+
+#newSpace .newSpace .taskSelecttwo-f {
+    color: #cfd2e6;
+    font-size: 0.875rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#newSpace .newSpace ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(85, 85, 85, 0.9);
+}
+
+.taskSelecttwo-a input {
+    color: #fff
+}
+
+#newSpace .newSpace .taskSelecttwo-s {
+    margin: 1rem 0 0 0;
+}
+
+#newSpace .newSpace .taskSelecttwo-s input {
+    background: #1F2033;
+    color: #fff;
+    border: 0.0625rem solid #4b4d73;
+    resize: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    padding: 0 15px;
+    border-radius: 0.25rem;
+}
+
+#newSpace .newSpace .taskSelecttwo-s input:focus {
+    outline: none;
+}
+
+#newSpace .newSpace .buttonBorColor {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+    background-color: #909399;
+    border: 1px solid #909399;
+    height: 3rem;
+    line-height: 1rem;
+}
+
+#newSpace .newSpace .buttonBorColor1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+    background-color: #3f75ff;
+    border: 1px solid #3f75ff;
+    height: 3rem;
+    line-height: 1rem;
+}
+
+#newSpace .newSpace .buttonBorColoeColse {
+    border: 0.0625rem solid #54617b;
+    background: transparent;
+    color: #fff;
+}
+
+
+.operationTipEN {
+    word-break: keep-all;
+}
+
+.el-date-table td.disabled div, .el-month-table td.disabled .cell, .el-year-table td.disabled .cell {
+    background-color: #3d4963 !important;
+}
+
+body #TrackStitching .el-picker-panel {
+    background-color: #202945;
+    color: #f5f7fa;
+    border: 1px solid #3467d1;
+}
+
+::-webkit-input-placeholder {
+    color: #cfd2e6 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #cfd2e6 !important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #cfd2e6 !important;
+}
+
+:-ms-input-placeholder {
+    color: #cfd2e6 !important;
+}
+
+#newSpace .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+#newSpace .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+#newSpace .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#newSpace .avatar {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+/* -----------------------------------------------其他--------------------------------------------- */
+::-webkit-scrollbar { /* 滚动条 */
+    width: 5px;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #434563;
+}
+
+.v-modal { /* 蒙版 */
+    background: transparent !important;
+}
+
+
+/*按钮*/
+.std-support {
+    width: 6rem;
+    color: #FFFFFF;
+    background-color: #27283f;
+    border: solid 0.125rem #595b80;
+}
+
+.std-negative {
+    width: 6rem;
+    color: #FFFFFF;
+    background-color: #909399;
+    border: solid 0.125rem #595b80;
+}
+
+.std-step {
+    width: 6rem;
+    color: #FFFFFF;
+    background-color: #4b4d73;
+    border: solid 0.125rem #595b80;
+}
+
+.myDialog {
+    word-break: keep-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-justify: inter-ideograph;
+}
+
+
+.mapBtn {
+    margin-left: 2rem !important;
+}
+
+.floorBtn {
+    margin-left: 3rem;
+}
+
+.operateBtn0 {
+    color: #ffffff;
+}
+
+.operateBtn1 {
+    color: #F56C6C;
+    margin-left: 1.5rem;
+}
+
+.operateBtn2 {
+    color: #67C23A;
+}
+
+.hw-button--small .el-button {
+    margin: 2rem 1.5rem 0 1.5rem;
+}
+
+.noDataTip {
+    line-height: 5rem;
+    color: gray !important;
+}
+
+.el-tabs--border-card {
+
+}
+
+
+.el-tabs {
+    margin-bottom: 1rem;
+}
+
+.el-tabs--border-card {
+    background-color: transparent;
+    border: solid 0.075rem #595b80;
+}
+
+.el-tabs--border-card > .el-tabs__header {
+    background-color: #434563;
+    border-bottom: solid 0.075rem #FF8B00;
+}
+
+
+.el-step__title {
+    font-size: 12PX;
+}
+
+.operateBtn-box {
+    position: absolute;
+    right: 0;
+}
+
+.vender-dialog {
+    opacity: 0.8;
+}
+
+
+.ntable-title {
+    color: #409EFF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.ntable-status {
+    font-size: 12px;
+    padding: 0 8px;
+    line-height: 20px;
+    position: relative;
+    top: -2px;
+    left: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.ntable-status .success {
+    color: #67C23A;
+}
+
+.ntable-status .Info {
+    color: #909399;
+}
+
+.relate-info {
+    color: #EEE;
+    font-size: 2rem;
+}
+
+.f {
+    margin-right: 25px;
+}
+
+.val {
+    color: #fff;
+}
+
+.ntag {
+    margin-bottom: 3px;
+}
+
+.row2 {
+    margin: 1.5rem 1rem;
+}
+
+.text-primary {
+    color: #128BED;
+    background: #E7F4FF;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    margin-right: 5rem;
+}
+
+.mapPoints-box {
+}
+
+.mergePoints-box {
+    text-align: center;
+    max-height: 17rem;
+    overflow: auto;
+}
+
+.apartPoint-box {
+    text-align: center;
+    max-height: 9rem;
+    overflow: auto;
+}
+
+#hidebtn .switch-buttonList {
+    z-index: 1310;
+    font-size: 20px;
+    background-color: #31335b;
+    padding-top: 15px;
+    padding-right: 2px;
+    position: fixed;
+    width: 20px;
+    height: 35px;
+    border-radius: 0 6px 6px 0;
+    opacity: 0.8;
+}
+
+#hidebtn .manage-left {
+    left: 24rem;
+    bottom: 0;
+}
+
+#hidebtn .manage-right {
+    left: 0;
+    bottom: 0;
+}
+
+.divBottom {
+    margin-bottom: 5px
+}

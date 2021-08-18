@@ -1,0 +1,15 @@
+{
+  "name": "hm_camera_control_widget",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"\",\"zh_CN\":\"华贸安防定制页面\"}",
+  "widgetname": "{\"en_US\":\"\",\"zh_CN\":\"HWCameraControlWidget\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}

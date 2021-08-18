@@ -1,0 +1,34 @@
+{
+  "widgetApi": [
+    {
+      "name": "HM_PersonPass_Widget"
+    }
+  ],
+  "widgetDescription": "",
+  "authorName": "l00419744",
+  "localFileBasePath": "",
+  "width": "",
+  "height": "",
+  "i18n": [
+    {
+      "name": "messages-en"
+    },
+    {
+      "name": "messages-zh"
+    }
+  ],
+  "requires": [
+    {
+      "name": "global_Vue",
+      "version": "100.7"
+    },
+    {
+      "name": "global_VueI18n",
+      "version": "100.7"
+    },
+	{
+      "name": "global_Element",
+      "version": "100.9"
+    }
+  ]
+}

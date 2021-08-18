@@ -1,0 +1,343 @@
+<!DOCTYPE HTML PUBLIC>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Preview</title>
+    <meta name="title" content="Preview" />
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+        var STUDIO_READER_VERSION = "v1-min";
+        var STUDIO_PRIMARY_READER_VERSION = "v1";
+        var STUDIO_READER_TYPE = "v2";
+        var STUDIO_REQUIREJS_BASE_URL = "";
+        var STUDIO_REQUIREJS_JS_PATHS_CONFIG = {};
+        var STUDIO_REQUIREJS_CSS_PATHS_CONFIG = {};
+        var STUDIO_REQUIREJS_MODULE_ORDER = {
+            "css": [],
+            "js": []
+        };
+    </script>
+    <style type="text/css">
+        #studiop_1.sk-ui-layout-grid>.scfContent {
+            margin: 0px;
+            width: auto;
+        }
+        .sk-ui-layout-grid #page1 .sk-ui-layout-grid-cell {
+            padding: 0px;
+        }
+
+        .sk-ui-layout-grid #page1 .cls_absWidget .sk-ui-layout-grid-cell {
+            padding: 0px;
+        }
+
+        #page1 #skPageLayoutCell_1_id-1.sk-ui-layout-grid-cell {
+            width: 100.0%;
+        }
+    </style>
+    <style type="text/css">
+        [v-cloak] {
+            display: none !important;
+        }
+    </style>
+    <link href="reader.css" rel="stylesheet" type="text/css">
+    <script src="require.min.js" type="text/javascript"></script>
+	<script src="reader.js" type="text/javascript"></script>
+	<script src="beforeall.js" type="text/javascript"></script>
+    <script src="afterall.js" type="text/javascript"></script>
+    <script src="/stylebundle.js" type="text/javascript"></script>
+
+    <script>
+        var ROOT_PAGE_URL = "page1";
+        var SITE_ROOT_PATH = "";
+        var STUDIO_PREVIEW = false;
+        (function () {
+            var locationPath = decodeURI(location.pathname || "");
+            var siteName = "";
+            if (locationPath.match(/\/skavastream\/([semantic/]*)studio\/(reader|preview)/) != null) {
+                if (locationPath.lastIndexOf("/" + siteName + "/" + ROOT_PAGE_URL) > -1) {
+                    SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + siteName + "/" +
+                        ROOT_PAGE_URL)) + "/" + siteName;
+                } else if (locationPath.lastIndexOf("/" + siteName) > -1) {
+                    SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + siteName)) + "/" +
+                        siteName;
+                }
+            } else if (locationPath.length > 1 && locationPath.lastIndexOf("/" + ROOT_PAGE_URL) > -1) {
+                SITE_ROOT_PATH = locationPath.substring(0, locationPath.lastIndexOf("/" + ROOT_PAGE_URL));
+            }
+            if (SITE_ROOT_PATH && SITE_ROOT_PATH[SITE_ROOT_PATH.length - 1] == "/") {
+                SITE_ROOT_PATH = SITE_ROOT_PATH.substr(0, SITE_ROOT_PATH.length - 1);
+            }
+        })();
+        var STUDIO_CURRENT_VIEW = "web";
+        var STUDIO_DATA = {
+            "pages": {
+                "1": {
+                    "index": 0,
+                    "facets": {},
+                    "layoutType": "2"
+                }
+            },
+            "pluginIncludes": [{
+                "fileBasePath": "/widget/",
+                "fileName": "HM_Organization_Widget.zip",
+                "filePackageInfo": {
+                    "widgetDescription": "",
+                    "widgetApi": [{
+                        "name": "HM_Organization_Widget"
+                    }],
+                    "authorName": "mly",
+                    "width": 500,
+                    "height": 300,
+					"i18n": [
+						{
+						  "name": "messages-en"
+						},
+						{
+						  "name": "messages-zh"
+						}
+					],
+                },
+                "fileUrls": [
+                    "/widget/HM_Organization_Widget.editor.js",
+                    "/widget/HM_Organization_Widget.ftl",
+                    "/widget/HM_Organization_Widget.js",
+                    "/widget/packageinfo.json",
+                    "/widget/scaffolding.json",
+                    "/widget/HM_Organization_Widget.css"
+                ]
+            }],
+			"catalogProperties":{"add-CSRFToken":{"name":"add-CSRFToken","value":"true","displayName":"add CSRFToken Flag"}}
+        };
+        var STUDIO_PAGE_DATA = {
+            "pageId": "1",
+            "pageName": "page1",
+            "viewName": "web",
+            "dimensions": {
+                "width": 1920,
+                "height": 1080
+            },
+            "cells": {
+                "skPageLayoutCell_1_id-1": {
+                    "cellId": "skPageLayoutCell_1_id-1",
+                    "widget": {
+                        "widgetId": "1",
+                        "pageId": "1",
+                        "widgetName": "widget1",
+                        "widgetType": "HM_Organization_Widget",
+                        "currentItemIdx": 0,
+                        "properties": {"APIConnector_POST":"common.global_connector_APIConnector","APIConnector_GET":"common.global_connector_APIConnector","APIConnector_PUT":"common.global_connector_APIConnector","APIConnector_DELETE":"common.global_connector_APIConnector"},
+                        "connectorProperties": {"APIConnector_POST":{"connectorParams":{"requestMethod":"post","prefix":""},"connector":"common.global_connector_APIConnector","connectorPeriod":0,"displayName":"APIConnector_POST","connectorModel":"ViewModel","connectorWidgetId":1,"connectorDataType":"connector","connectorType":"v2"},"APIConnector_GET":{"connectorParams":{"requestMethod":"get","prefix":""},"connector":"common.global_connector_APIConnector","connectorPeriod":0,"displayName":"APIConnector_GET","connectorModel":"ViewModel","connectorWidgetId":1,"connectorDataType":"connector","connectorType":"v2"},"APIConnector_PUT":{"connectorParams":{"requestMethod":"put","prefix":""},"connector":"common.global_connector_APIConnector","connectorPeriod":0,"displayName":"APIConnector_PUT","connectorModel":"ViewModel","connectorWidgetId":1,"connectorDataType":"connector","connectorType":"v2"},"APIConnector_DELETE":{"connectorParams":{"requestMethod":"delete","prefix":""},"connector":"common.global_connector_APIConnector","connectorPeriod":0,"displayName":"APIConnector_DELETE","connectorModel":"ViewModel","connectorWidgetId":1,"connectorDataType":"connector","connectorType":"v2"}},
+                        "events": {},
+                        "eventsArray": [],
+                        "sortOrder": 2,
+                        "items": [],
+                        "libWidget": false,
+                        "absWidget": false,
+                        "widgetVersion": "v2"
+                    }
+                }
+            },
+            "gridLayout": {
+                "properties": {
+                    "columns": 12,
+                    "gutterSize": 0,
+                    "margin": 0,
+                    "padding": 0
+                },
+                "cells": [{
+                    "index": 0,
+                    "type": "",
+                    "cellId": "skPageLayoutCell_1_id-1",
+                    "cellNumber": 1,
+                    "properties": {
+                        "columns": 12,
+                        "hidden": false
+                    }
+                }]
+            },
+            "pageViewProperties": {},
+            "layoutType": "2"
+        };
+        var STUDIO_PAGE_LEVEL_MACRO = {};
+        var STUDIO_VERSION = "dev";
+    </script>
+    <script type="text/javascript">
+        var SKReaderReadyFnCalled = false;
+        var SKReader_ReadyCbk = function () {
+            readerObj.makeCenterPage("1");
+            function loadApp() {
+                $.support.cors = true;
+                var options = {};
+                options.CAMPAIGN_ID = 1;
+                options.IS_DV = false;
+                SKReader.initApp(options);
+            }
+            readerObj.loadedPluginRequires = [""];
+
+            if ("skReaderRequire" in window && typeof (skReaderRequire) === "function") {
+                skReaderRequire(["require"], function (req) {
+                    if ("define" in window && typeof (define) === "function") {
+                        var loadedJSModules = [];
+                        var loadedCSSModules = [];
+
+                        $.each(loadedJSModules, function (idx, def) {
+                            define(def, [], function () {
+                                //write code for on load definition
+                                return;
+                            });
+                        });
+
+                        $.each(loadedCSSModules, function (idx, def) {
+                            //TODO: To be fixed, don't access requirejs contexts directly. This code for CSS only
+                            require.s.contexts[STUDIO_REQUIREJS_CONTEXT_NAME].defined[def] =
+                                undefined;
+                        });
+
+                        //for requirejs defined module
+                        req(loadedJSModules, loadApp);
+                    } else {
+                        loadApp();
+                    }
+                });
+            } else {
+                loadApp();
+            }
+        };
+        var SKReader_PageShow = function () {
+            if (!SKReaderReadyFnCalled) {
+                SKReaderReadyFnCalled = true;
+                SKReader_ReadyCbk();
+            }
+        };
+
+        $(document).ready(function () {
+            SKReaderReadyFnCalled = true;
+            SKReader_ReadyCbk();
+        });
+    </script>
+	<script src="./addlibrary.js"></script>
+</HEAD>
+
+<BODY style="margin:0px; padding: 0px;" onpageshow="SKReader_PageShow()">
+    <noscript>
+        <div class="noScriptCont">
+            <div class="noScripterMsg">This site requires JavaScript. Please enable JavaScript in the browser settings
+                and try again.</div>
+        </div>
+    </noscript>
+    <div id="id_skStudio_Wrapper">
+        <div id="studiop_1" class="scfPage skcWebPage sk-ui-layout-grid sk-ui-layout-portrait" align="center"
+            data-pageid="1" data-viewName="web" data-pageUrl="page1" data-devicetype="3" data-gridcols="12"
+            data-gridguttersize="0" data-gridlayoutmargin="0">
+            <div id="id_scfContent_" class="scfContent" align="left">
+                <div id="page1" class="lyt_cont_div page" style="width: 100%;" flexiPage="false">
+                    <div id="sk_id_layout_grid">
+                        <div id="skPageLayoutCell_1_id-1"
+                            class="skc_pageCellLayout sk-ui-layout-grid-cell cls_skWidget widget1 " widgetId="1"
+                            widgetName="widget1" widgetType="HM_Organization_Widget" data-cols="12"
+                            data-cellnumber="1">
+                            <div class="cls_customWidgetAPI">
+                                <div class='skcCellContainer'>
+                                    <div class='sk-ui-layout-grid-cell-border' >
+                                        <div class='sk-ui-layout-grid-cell-background'>
+                                            <div id="IOC_PersonPass_Widget" v-cloak>
+   <div class="template_content">
+   
+      <div class="rightContent">
+         <!-- 搜索 -->
+         <el-form class="conditions" label-position="top">
+            <div class="row">
+               <div class="col">
+                  <div class="title">{{lang.organizationInputTitle}}</div>
+                  <div class="hw-input">
+                     <el-input v-model="orgName" :placeholder="lang.enterOrganizationName"></el-input>
+                  </div>
+
+               </div>
+               <div class="col col1">
+                  <div class="title">{{lang.organizationRegion}}</div>
+                  <div class="hw-input">
+                     <el-input v-model="region" :placeholder="lang.enterOrganizationRegion"></el-input>
+                  </div>
+               </div>
+                <div class="col buttons">
+                  <div class="title">&nbsp;</div>
+                  <div class="f_r">
+                        <div class="info-button hw-button hw-button--info">
+                            <el-button type="info" style="width: 8rem;" @click="pageNum = 1;searchTable()">{{lang.searchBtn}}</el-button>
+                        </div>     
+                        <div class="hw-button hw-button--ghost">
+                            <el-button type="ghost" style="width: 8rem;" @click="reset">{{lang.resetBtn}}</el-button>
+                        </div>                     
+                  </div>
+               </div>
+            </div>
+
+         </el-form>
+   
+         <!-- 表格 -->
+         <div class="hw-table table">
+            <el-table v-loading="loading" :data="organization" @row-click="hideImage">
+               <el-table-column :label="lang.organizationName" prop="organizationName" show-overflow-tooltip></el-table-column>
+               <el-table-column :label="lang.industry" prop="industry" show-overflow-tooltip ></el-table-column>
+               <el-table-column :label="lang.organizationLevel" prop="comLevel" show-overflow-tooltip></el-table-column>
+               <el-table-column :label="lang.establishDate" prop="establishDate" show-overflow-tooltip></el-table-column>
+               <el-table-column :label="lang.comStatus" prop="comStatus" show-overflow-tooltip ></el-table-column>
+               <el-table-column :label="lang.region" prop="region" show-overflow-tooltip></el-table-column>
+               <el-table-column :label="lang.upload">
+                  <el-button icon="el-icon-upload btn-onload" @click="dialogVisible = true"></el-button>
+               </el-table-column>
+            </el-table>
+         </div>
+
+         <el-dialog class="el-hw-dialog"
+            title="上传图片"
+            :visible.sync="dialogVisible"
+            width="30%"
+            :modal-append-to-body=true v-dialogmove :append-to-body=true :close-on-press-escape=false :close-on-click-modal=false
+            :before-close="handleClose">
+                <el-form :model="conference.formData" :rules="rules" ref="conference.formData" :label-position="labelPosition"
+                  class="forms forms_flex">
+               <el-row :gutter="20">
+                  <el-col :span="12">
+                     <el-form-item >
+                        <el-upload class="avatar-uploader" action="" :http-request="uploadPhoto" :show-file-list="false"
+                        :on-success="handleAvatarSuccess" :before-upload="beforeAvatarUpload" accept=".jpg,.jpeg">
+                        <img v-if="conference.formData.showPhotoUrl" :src="conference.formData.showPhotoUrl" class="avatar">
+                        <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+                        </el-upload>
+                     </el-form-item>
+                  </el-col>
+               </el-row>
+            </el-form>
+            <span slot="footer" class="dialog-footer">
+               <el-button @click="handleCloseDialog" class="cancel-button">取 消</el-button>
+               <el-button @click="submitPic" class="submit-button">确 定</el-button>
+               <!--  <el-button type="primary" @click="submitPic" class="submit-button">确 定</el-button>  -->
+            </span>
+         </el-dialog>
+   
+         <!-- 分页 -->
+         <div class="pagination">
+            <div class="hw-pagination">
+               <el-pagination :current-page="pageNum" :page-sizes="[10, 20, 50, 100, 150]" :page-size="numPerPage" :total="totalCount"
+                  layout="total, sizes, prev, pager, next, jumper" @size-change="handleSizeChange" @current-change="handleCurrentChange">
+               </el-pagination>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</BODY>
+</HTML>

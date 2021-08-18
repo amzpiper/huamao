@@ -1,0 +1,17 @@
+{
+    "properties": [],
+    "propertyGroups": [],
+    "itemDescription": [],
+    "events": [],
+    "actions": [],
+    "widgetSettings": {
+        "widgetName": "HM_DeviceManage",
+        "widgetDescription": "HM DeviceManage Widget",
+        "authorName": "LCL",
+        "multipleItems": false,
+        "supportHotspots": false,
+        "localFileBasePath": "",
+        "serverRendered": true,
+        "lastSaved": "2021-04-29 03:22:01 UTC"
+    }
+}

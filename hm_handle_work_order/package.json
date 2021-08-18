@@ -1,0 +1,15 @@
+{
+  "name": "hm_handle_work_order",
+  "version": "1.0.0",
+  "description": "{\"en_US\":\"00\",\"zh_CN\":\"00\"}",
+  "widgetname": "{\"en_US\":\"hmhandleworkorder\",\"zh_CN\":\"hmhandleworkorder\"}",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "magno widget --serve",
+    "build": "magno widget --prod"
+  },
+  "devDependencies": {
+    "theme-chalk": "^1.0.0"
+  }
+}
